@@ -1,8 +1,0 @@
-cd : Change the directory to a different location.
-ls : List the contents of the current directory.
-mkdir : Create a new directory.
-touch : Create a new file.
-rm : Remove a file or directory.
-cp : Copy a file or directory.
-mv : Move or rename a file or directory.
-#comment
