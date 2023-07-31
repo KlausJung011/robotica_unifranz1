@@ -29,12 +29,12 @@ rate = rospy.Rate(1) # 1hz
 while not rospy.is_shutdown():
     twistmessage = Twist()
     twistmessage.linear.x= int_value1
-    twistmessaje.linear.y= int_value2
-    twistmessaje.linear.z= int_value3
-    twistmessaje.angular.x=int_value4
+    twistmessage.linear.y= int_value2
+    twistmessage.linear.z= int_value3
+    twistmessage.angular.x=int_value4
     int_value5=int_value1+int_value2+int_value3+int_value4
-    twistmessaje.angular.y= int_value5
-    twistmessaje.angular.z=int_value5*int_value5
-    pub.publish(twistmessaje)
-    print(twistmessaje)
+    twistmessage.angular.y= int_value5
+    twistmessage.angular.z=int_value5*int_value5
+    pub.publish(twistmessage)
+    print(twistmessage)
     rate.sleep()
