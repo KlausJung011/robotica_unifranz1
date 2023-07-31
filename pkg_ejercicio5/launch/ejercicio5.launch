@@ -1,0 +1,11 @@
+
+<launch>
+
+<node name="codigo51" pkg="pkg_ejercicio5" type="codigo51.py" />
+<node name="codigo52" pkg="pkg_ejercicio5" type="codigo52.py" />
+<node name="codigo53" pkg="pkg_ejercicio5" type="codigo53.py" />
+<node name="codigo54" pkg="pkg_ejercicio5" type="codigo54.py" />
+<node name="codigo55" pkg="pkg_ejercicio5" type="codigo55.py" />
+<node name="codigo56" pkg="pkg_ejercicio5" type="codigo56.py" output="screen"/>
+
+</launch>

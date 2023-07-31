@@ -1,0 +1,8 @@
+
+<launch>
+
+<node name="codigo21" pkg="pkg_ejercicio2" type="codigo21.py" />
+<node name="codigo22" pkg="pkg_ejercicio2" type="codigo22.py" />
+<node name="codigo23" pkg="pkg_ejercicio2" type="codigo23.py" output="screen"/>
+
+</launch>
